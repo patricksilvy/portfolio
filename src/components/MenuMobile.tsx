@@ -31,7 +31,6 @@ export default function MobileDrawer() {
                         <Link key={i}>
                             <Button
                                 variant="link"
-                                fontFamily='m_plus_rounded_1c'
                                 fontWeight={400}
                             > {item.label} </Button>
                         </Link>
