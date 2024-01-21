@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Hero() {
     return (
         <header className={`
-        flex justify-between mt-8 gap-4
+            max-w-xl flex items-center my-8 gap-8 mx-auto
       `}>
             <Image
                 src="https://github.com/patricksilvy.png"
@@ -11,9 +11,9 @@ export default function Hero() {
                 height={80} width={80}
                 className="h-32 w-32 rounded-full"
             ></Image>
-            <section>
-                <h1 className="font-semibold text-xl">Olá 👋, me chamor Patrick Silvy, e esse é meu portfolio!</h1>
-                <h2 className="text-md font-semibold text-gray-300">Desenvolvedor</h2>
+            <section className="max-w-md">
+                <h1 className="font-semibold text-lg md:text-2xl">Olá 👋, me chamor Patrick Silvy, e esse é meu portfolio!</h1>
+                <h2 className="text-sm font-semibold text-gray-300 md:text-xl">Desenvolvedor</h2>
             </section>
         </header>
     )
